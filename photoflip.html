@@ -1,0 +1,71 @@
+<!-- <h1>Create footer that holds the temporary links for your social media handles that we will be adding as the project progresses
+    Key components  
+    Your video title should use a heading 1  
+    Video description should be in a details, summary & paragraph elements 
+    Video should centered on the page and only take up half of the available screen space from the top, bottom, left and right
+    Your video element should include class name, id and name attribute
+    Add a toggle that will allow user toggle videos auto-play on or off  
+    Add a dropbox box that allows users to select different categories of videos </h1> -->
+    
+    ```html
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="styles.css" />
+      <title>Simply Youtube</title>
+      <style>
+        body {
+          margin: 0;
+          padding: 0;
+          font-family: sans-serif;
+        }
+        .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background-color: #f5f5f5;
+        }
+        .video-wraper {
+          width: 100%;
+          max-width: auto;
+        }
+      </style>
+    </head>
+    <body>
+      <header>
+        <h1>Simply YouTube</h1>
+      </header>
+    
+      <main>
+        <div class="container">
+          <div class="video-wraper">
+            <h2>Video Description</h2>
+            <details>
+              <summary>Maddra unchia roasting people and a king vader vieo </summary>
+              <p>This video is about Maddra being a savage and king vader video of him being the comander and cheif</p>
+            </details>
+            
+            <h2>Youtube video</h2>
+            <video class="centered" name="videoName" width="320" height="240" controls autoplay>
+              <source src="<iframe width="560" height="315" src="https://www.youtube.com/embed/C3-p-f3vqZA?si=b1C1Ng6jIQ8jW4Af" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>" type="video/mp4">
+              <source src="<iframe width="560" height="315" src="https://www.youtube.com/embed/L7SfGXeWhDU?si=ri2AGYtk6M0jNZTm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`" type="video/ogg">
+          
+            </video>
+          </div>
+        </div>
+      </main>
+    
+      <footer>
+        <select>
+          <option value="category1">Category 1</option>
+          <option value="category2">Category 2</option>
+        </select>
+        <label for="autoplay">Autoplay: </label>
+        <input type="checkbox" id="autoplay" name="autoplay" checked>
+      </footer>
+    </body>
+    </html>
+    ```
