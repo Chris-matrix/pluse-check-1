@@ -1,9 +1,24 @@
-      /* Launchpad Philly Logo */
-      img {
-        width: 200px;
-        height: 150px;
-        background-color: lightblue;
-        border-radius: 5%;
-      }
-      <p style="text-align:center;"> <img src="https://www.lambdatest.com/resources/images/logos/logo.svg" alt="LambdaTest"> </p>
-<style type="text/css"> .centerImg { text-align:center; display:block; } </style>
+     
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.icon {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}

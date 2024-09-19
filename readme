@@ -1,0 +1,37 @@
+git checkout -b readme
+
+# Create the READ.me file with the Linux touch command 
+touch README.md 
+# open the README.md in Visual Studio Code and copy and paste the below code into the READ.md file. 
+
+# Hello, I'm [Your Name] 👋
+
+## About Me
+- 🎓 Full-Stack Web Developer @Launchpad Philly
+- 💻 Passionate about web development and AI
+- 🌱 Currently learning Web Front End Development and Full Stack Web Development
+
+## My Projects
+- [Project 1]: Brief description
+- [Project 2]: Brief description
+
+## Connect with Me
+- [LinkedIn]
+- [Twitter]
+# Save the file 
+
+# Commit changes
+git add README.md
+git commit -m "Add README.md to the project"
+
+# Switch back to main branch
+git checkout main
+
+# Merge feature branch
+git merge readme
+
+
+
+
+
+<!--  -->
